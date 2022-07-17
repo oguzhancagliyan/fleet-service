@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "barcode": "P8988000122",
+            "bagBarcode": "C725799"
+        },
+        {
+            "barcode": "P8988000126",
+            "bagBarcode": "C725799"
+        },
+        {
+            "barcode": "P9988000128",
+            "bagBarcode": "C725800"
+        },
+        {
+            "barcode": "P9988000129",
+            "bagBarcode": "C725800"
+        }
+    ]
+}

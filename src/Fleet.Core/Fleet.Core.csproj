@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Handlers\" />
+    <None Remove="Handlers\QueryHandlers\" />
+    <None Remove="Handlers\CommandHandlers\" />
+    <None Remove="Serilog" />
+    <None Remove="FluentValidation" />
+    <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="Mapster" />
+    <None Remove="MediatR" />
+    <None Remove="MongoDB.Bson" />
+    <None Remove="MongoDB.Driver" />
+    <None Remove="MongoDB.Driver.Core" />
+    <None Remove="Entities\" />
+    <None Remove="Extensions\" />
+    <None Remove="Helpers\" />
+    <None Remove="Errors\" />
+    <None Remove="PipelineBehaviors\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Handlers\" />
+    <Folder Include="Handlers\QueryHandlers\" />
+    <Folder Include="Handlers\CommandHandlers\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Errors\" />
+    <Folder Include="PipelineBehaviors\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.11.0" />
+    <PackageReference Include="FluentValidation" Version="11.0.3" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.0.3" />
+    <PackageReference Include="Mapster" Version="7.3.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MongoDB.Bson" Version="2.16.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.16.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.16.0" />
+  </ItemGroup>
+</Project>
